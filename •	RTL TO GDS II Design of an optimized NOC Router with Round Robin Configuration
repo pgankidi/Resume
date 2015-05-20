@@ -1,0 +1,19 @@
+o	Micro-Architecture
+  RTL design and implementation of Cross-Bar switch topology.
+  Optimization done using Round Robin Configuration.
+
+o	RTL compiler
+  Synthesized behavioral Verilog netlist using cadence RTL compiler.
+	Implemented RTL compiler scripts which includes rtl setup and timing files.
+	Automated using tcl script.
+
+o	SOC Encounter
+  Used during placement and routing stage of the design. 
+
+o	Post Encounter Layout & Netlist Generation
+  Imported GDS to virtuoso Layout
+  Verilog to Spice netlist generation.
+
+o	Prime time
+  Used Primetime Synopsys tool as a gate-level static timing/power analyzer.
+  Post synthesis and Post APR timing Verification has been done using PrimeTime
